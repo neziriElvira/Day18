@@ -9,18 +9,130 @@ body {
 
 header {
     width: 100%;
-    height: 100px;
-    background-color: rgb(54, 55, 78);
+    height: 80px;
+    background-color: #37414a;
+    border-bottom: 3px solid orangered;
 }
 
 #branding {
     float: left;
-    margin-left: 10%;
-    margin-top: 30px;
-    
+    padding-top: 20px;
+    margin-left: 180px;
+    color: #fff;
+}
+
+.highlight {
+    color: orangered;
+}
+
+.container ul {
+    float: right;
+    padding: 30px 180px;
+    list-style-type: none;
+
 }
 
 header li {
     display: inline;
-    
+    padding-left: 30px;
+    text-transform: uppercase;
 }
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.current a{
+    color: orangered;
+}
+
+#showcase {
+    width: 100%;
+    height: 450px;
+    background-image:radial-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/gigi-logo.png");
+    filter: grayscale(100%);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+}
+
+#showcase h1, #showcase p {
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    padding: 160px 0 30px;
+    font-size: 50px;
+}
+
+#showcase p {
+    width: 1000px;
+    margin: auto;
+    font-size: large;
+}
+
+#newsletter {
+    width: 100%;
+    height: 80px;
+    background-color: #37414a;
+}
+
+#newsletter h1 {
+    float: left;
+    padding-top: 25px;
+    margin-left: 180px;
+    color: #fff;
+}
+
+.container form {
+    float: right;
+    padding: 25px 180px;
+}
+
+#newsletter input {
+    width: 250px;
+    height: 25px;
+}
+
+.button_1 {
+    width: 80px;
+    height: 28px;
+    background-color: orangered;
+    color: white;
+    border-style: none;
+}
+#boxes {
+    width: 1200px;
+    margin: 0 240px;
+    background-color: rgba(128, 128, 128, 0.089);
+    position: relative;
+    float: none;
+}
+
+.box {
+    float: left;
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+}
+
+.box img, .box p, .box h3 {
+    padding-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 290px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: orangered;
+}
+
+
